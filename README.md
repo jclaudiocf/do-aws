@@ -1,1 +1,2 @@
-# aws-lambda
+# Project
+> Repository to AWS Lambda study
