@@ -1,2 +1,1 @@
-# Project
-> Repository to AWS Lambda study
+> AWS lambda study repository
