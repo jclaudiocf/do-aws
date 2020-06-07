@@ -20,7 +20,7 @@ keymaps -> install Intellij keymaps
 **Policies**
 - AWSLambdaBasicExecutionRole
 
-# Create a new Lambda Function
+# Create a new lambda function
 
 **Name:** lambda_photo_album_lambda
 

@@ -1,30 +1,36 @@
 > AWS lambda - Nanosservice Album Project
 
-# VSCode Shortcuts
+# VSCode shortcuts
 
 Ctrl + Shift + P
 keymaps -> install Intellij keymaps
 
 # Pre requisito
-- S3 with name: 
+
+**S3 with name:** jccf-lambda-photo-album-bucket-images
 
 # Create http-handler project
 
-serverless create --template aws-nodejs --path http-handler
-cd http-handler/
-npm init
+```shell
+$ serverless create --template aws-nodejs --path http-handler
+$ cd http-handler/
+$ npm init
+```
 
 # Dependencies install
 
-npm i serverless-apigw-binary --save-dev
-npm i aws-sdk --save-dev
-npm i uuid
+```shell
+$ npm i serverless-apigw-binary --save-dev
+$ npm i aws-sdk --save-dev
+$ npm i uuid
+```
 
 # Deploy on AWS
 
-sls deploy
+```shell
+$ sls deploy
+```
 
 # Endpoints
 
-- upload
-POST https://URL/dev/images
+**Upload** POST https://URL/dev/images
