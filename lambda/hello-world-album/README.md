@@ -11,9 +11,11 @@ name: lambda_photo_album_user
 Access type
 - Programmatic access
 - AWS Management Console access
+
 group name: admin_group
 
 IAM name: lambda_photo_album_role
+
 Policies
 - AWSLambdaBasicExecutionRole
 
@@ -24,15 +26,18 @@ name: lambda_photo_album_lambda
 # Create a s3 and lambda trigger
 
 name: jccf-lambda-photo-album-bucket-images
+
 trigger with lambda: lambda_photo_album_lambda
 
 # Serverless framework
 
 Install serverless (https://www.serverless.com/framework/docs/getting-started/)
 
+```console
 $ npm install serverless -g
 $ serverless create --template hello-world
 $ serverless deploy
+```
 
 It's created the follows resources:
 - `dev-hello-world-lambda` API Gateway
