@@ -33,7 +33,7 @@ trigger with lambda: lambda_photo_album_lambda
 
 Install serverless (https://www.serverless.com/framework/docs/getting-started/)
 
-```console
+```shell
 $ npm install serverless -g
 $ serverless create --template hello-world
 $ serverless deploy
