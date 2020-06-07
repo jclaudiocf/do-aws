@@ -1,1 +1,1 @@
-> AWS lambda study repository
+> AWS study repository
